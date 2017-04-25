@@ -78,6 +78,7 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         jLabel7.setText("Persona 1");
 
         jButton3.setBackground(new java.awt.Color(153, 153, 153));
+        jButton3.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton3.setText("Administrar Entregables");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,6 +87,7 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         });
 
         jButton4.setBackground(new java.awt.Color(153, 153, 153));
+        jButton4.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton4.setText("Revision y Evaluacion");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -94,6 +96,7 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         });
 
         jButton5.setBackground(new java.awt.Color(153, 153, 153));
+        jButton5.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton5.setText("Estado de Proyecto");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -102,6 +105,7 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         });
 
         jButton6.setBackground(new java.awt.Color(153, 153, 153));
+        jButton6.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton6.setText("Cambios");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,12 +126,13 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jLabel7)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 191, Short.MAX_VALUE)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jButton6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE))
-                .addGap(42, 42, 42))
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(jButton6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jButton5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jButton4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jButton3))
+                .addGap(30, 30, 30))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -162,6 +167,7 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         jLabel9.setText("Persona 2");
 
         jButton10.setBackground(new java.awt.Color(153, 153, 153));
+        jButton10.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton10.setText("Cambios");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -170,6 +176,7 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         });
 
         jButton8.setBackground(new java.awt.Color(153, 153, 153));
+        jButton8.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton8.setText("Estado de Proyecto");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -178,6 +185,7 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         });
 
         jButton7.setBackground(new java.awt.Color(153, 153, 153));
+        jButton7.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton7.setText("Revision y Evaluacion");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -186,6 +194,7 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         });
 
         jButton15.setBackground(new java.awt.Color(153, 153, 153));
+        jButton15.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton15.setText("Administrar Entregables");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -245,6 +254,7 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         jLabel10.setText("Responsable:");
 
         jButton14.setBackground(new java.awt.Color(153, 153, 153));
+        jButton14.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton14.setText("Cambios");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -253,6 +263,7 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         });
 
         jButton11.setBackground(new java.awt.Color(153, 153, 153));
+        jButton11.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton11.setText("Revision y Evaluacion");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -261,6 +272,7 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         });
 
         jButton12.setBackground(new java.awt.Color(153, 153, 153));
+        jButton12.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton12.setText("Estado de Proyecto");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -269,6 +281,7 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         });
 
         jButton16.setBackground(new java.awt.Color(153, 153, 153));
+        jButton16.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton16.setText("Administrar Entregables");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -320,7 +333,9 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         );
 
         jButton1.setBackground(new java.awt.Color(153, 153, 153));
+        jButton1.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton1.setText("Nuevo");
+        jButton1.setName("btnProyectoJefeNuevo"); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -328,7 +343,9 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
         });
 
         jButton2.setBackground(new java.awt.Color(153, 153, 153));
+        jButton2.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton2.setText("Salir");
+        jButton2.setName("btnProyectoJefeSalir"); // NOI18N
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -374,7 +391,7 @@ public class FrmProyectoJefe extends javax.swing.JPanel implements java.beans.Cu
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 7, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

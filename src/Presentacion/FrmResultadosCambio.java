@@ -59,6 +59,7 @@ public class FrmResultadosCambio extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(153, 153, 153));
         jButton1.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton1.setText("Descargar");
+        jButton1.setName("btnResultCambioDescar"); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -68,6 +69,7 @@ public class FrmResultadosCambio extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(153, 153, 153));
         jButton3.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton3.setText("Rechazar");
+        jButton3.setName("btnResultCambioRechaz"); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -76,6 +78,7 @@ public class FrmResultadosCambio extends javax.swing.JFrame {
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
+        jTextArea1.setName("txtResultCambioComenta"); // NOI18N
         jScrollPane1.setViewportView(jTextArea1);
 
         jLabel28.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
@@ -84,6 +87,7 @@ public class FrmResultadosCambio extends javax.swing.JFrame {
         jButton4.setBackground(new java.awt.Color(153, 153, 153));
         jButton4.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton4.setText("Aprobar");
+        jButton4.setName("btnResultCambioAproba"); // NOI18N
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -102,17 +106,20 @@ public class FrmResultadosCambio extends javax.swing.JFrame {
         jTextArea2.setColumns(20);
         jTextArea2.setRows(5);
         jTextArea2.setText("Miembro 1\nMiembro 2\nMiembro 3\nMiembro 4");
+        jTextArea2.setName("txtResultCambioMiembr"); // NOI18N
         jScrollPane2.setViewportView(jTextArea2);
 
         jTextArea3.setColumns(20);
         jTextArea3.setRows(5);
         jTextArea3.setText("Aceptado\nRechazado\nAceptado\nAceptado");
+        jTextArea3.setName("txtResultCambioOpinion"); // NOI18N
         jScrollPane3.setViewportView(jTextArea3);
 
         jLabel29.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel29.setText("Opinion:");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Miembro 1", " " }));
+        jComboBox1.setName("cmbResultCambioMiemb"); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

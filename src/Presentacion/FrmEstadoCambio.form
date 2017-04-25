@@ -19,7 +19,7 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+          <Color blue="cc" green="99" red="0" type="rgb"/>
         </Property>
       </Properties>
       <Constraints>
@@ -62,7 +62,7 @@
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace pref="112" max="32767" attributes="0"/>
+                  <EmptySpace pref="109" max="32767" attributes="0"/>
               </Group>
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="32767" attributes="0"/>
@@ -96,7 +96,7 @@
                       <Component id="jLabel30" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="26" max="32767" attributes="0"/>
+                  <EmptySpace pref="22" max="32767" attributes="0"/>
                   <Component id="jButton3" min="-2" pref="36" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -115,7 +115,7 @@
         <Component class="javax.swing.JLabel" name="jLabel26">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial Narrow" size="13" style="0"/>
+              <Font name="Arial Narrow" size="14" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Estado:"/>
           </Properties>
@@ -125,7 +125,11 @@
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="99" red="99" type="rgb"/>
             </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Narrow" size="14" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Ok"/>
+            <Property name="name" type="java.lang.String" value="btnEstadoCambioOk" noResource="true"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
@@ -134,7 +138,7 @@
         <Component class="javax.swing.JLabel" name="jLabel27">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial Narrow" size="13" style="0"/>
+              <Font name="Arial Narrow" size="14" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Responsable:"/>
           </Properties>
@@ -142,15 +146,16 @@
         <Component class="javax.swing.JLabel" name="jLabel28">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial Narrow" size="13" style="1"/>
+              <Font name="Arial Narrow" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Solicitante.."/>
+            <Property name="name" type="java.lang.String" value="lblEstadoCambioResponsa" noResource="true"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel29">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial Narrow" size="13" style="0"/>
+              <Font name="Arial Narrow" size="14" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Fecha de Inicio:"/>
           </Properties>
@@ -158,7 +163,7 @@
         <Component class="javax.swing.JLabel" name="jLabel30">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial Narrow" size="13" style="0"/>
+              <Font name="Arial Narrow" size="14" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Fecha l&#xed;mite:"/>
           </Properties>
@@ -166,25 +171,28 @@
         <Component class="javax.swing.JLabel" name="jLabel31">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial Narrow" size="13" style="1"/>
+              <Font name="Arial Narrow" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Pendiente/Terminado"/>
+            <Property name="name" type="java.lang.String" value="lblEstadoCambioEstado" noResource="true"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel32">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial Narrow" size="13" style="1"/>
+              <Font name="Arial Narrow" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="dd/mm/aaaa"/>
+            <Property name="name" type="java.lang.String" value="lblEstadoCambioFechaIni" noResource="true"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel33">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Arial Narrow" size="13" style="1"/>
+              <Font name="Arial Narrow" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="dd/mm/aaaa"/>
+            <Property name="name" type="java.lang.String" value="lblEstadoCambioFechaLimi" noResource="true"/>
           </Properties>
         </Component>
       </SubComponents>

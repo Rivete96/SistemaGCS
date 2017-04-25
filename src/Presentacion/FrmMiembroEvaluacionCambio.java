@@ -51,6 +51,7 @@ public class FrmMiembroEvaluacionCambio extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(153, 153, 153));
         jButton1.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton1.setText("Descargar");
+        jButton1.setName("btnMiembroEvaluCambioDescarg"); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -60,6 +61,7 @@ public class FrmMiembroEvaluacionCambio extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(153, 153, 153));
         jButton3.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton3.setText("Rechazar");
+        jButton3.setName("btnMiembroEvaluCambioRechaz"); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -68,10 +70,12 @@ public class FrmMiembroEvaluacionCambio extends javax.swing.JFrame {
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
+        jTextArea1.setName("txtMiembroEvaluCambioComent"); // NOI18N
         jScrollPane1.setViewportView(jTextArea1);
 
         jLabel27.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel27.setText("Evaluador..");
+        jLabel27.setName("lblMiembroEvaluCambioEvaluad"); // NOI18N
 
         jLabel28.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel28.setText("Comentarios:");
@@ -79,6 +83,7 @@ public class FrmMiembroEvaluacionCambio extends javax.swing.JFrame {
         jButton4.setBackground(new java.awt.Color(153, 153, 153));
         jButton4.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton4.setText("Aceptar");
+        jButton4.setName("btnMiembroEvaluCambioAcept"); // NOI18N
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);

@@ -68,7 +68,9 @@ public class FrmProyectoUsuario extends javax.swing.JPanel implements java.beans
         jLabel7.setText("Persona 1");
 
         jButton5.setBackground(new java.awt.Color(153, 153, 153));
+        jButton5.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton5.setText("Estado de Proyecto");
+        jButton5.setName("btnProyectoUsuario"); // NOI18N
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -117,7 +119,9 @@ public class FrmProyectoUsuario extends javax.swing.JPanel implements java.beans
         jLabel9.setText("Persona 2");
 
         jButton8.setBackground(new java.awt.Color(153, 153, 153));
+        jButton8.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton8.setText("Estado de Proyecto");
+        jButton8.setName("btnProyectoUsuario"); // NOI18N
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton8ActionPerformed(evt);
@@ -166,7 +170,9 @@ public class FrmProyectoUsuario extends javax.swing.JPanel implements java.beans
         jLabel10.setText("Responsable:");
 
         jButton12.setBackground(new java.awt.Color(153, 153, 153));
+        jButton12.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton12.setText("Estado de Proyecto");
+        jButton12.setName("btnProyectoUsuario"); // NOI18N
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton12ActionPerformed(evt);
@@ -208,7 +214,9 @@ public class FrmProyectoUsuario extends javax.swing.JPanel implements java.beans
         jPanel6.setBackground(new java.awt.Color(0, 153, 204));
 
         jButton3.setBackground(new java.awt.Color(153, 153, 153));
+        jButton3.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton3.setText("Nuevo");
+        jButton3.setName("btnProyectoUsuarioNuevo"); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -216,7 +224,9 @@ public class FrmProyectoUsuario extends javax.swing.JPanel implements java.beans
         });
 
         jButton4.setBackground(new java.awt.Color(153, 153, 153));
+        jButton4.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton4.setText("Salir");
+        jButton4.setName("btnProyectoUsuarioSalir"); // NOI18N
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);

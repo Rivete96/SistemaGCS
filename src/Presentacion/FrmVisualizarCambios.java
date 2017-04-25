@@ -44,13 +44,14 @@ public class FrmVisualizarCambios extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(0, 153, 204));
 
         jLabel16.setFont(new java.awt.Font("Arial Narrow", 1, 22)); // NOI18N
-        jLabel16.setText("PROGRAMACION DE SOLICITUD");
+        jLabel16.setText("VISUALIZAR CAMBIO");
 
         jLabel26.setFont(new java.awt.Font("Arial Narrow", 0, 16)); // NOI18N
         jLabel26.setText("Nombre:");
 
         jButton3.setBackground(new java.awt.Color(153, 153, 153));
         jButton3.setText("Aceptar");
+        jButton3.setName("btnVisualizaCambioAcept"); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -60,6 +61,7 @@ public class FrmVisualizarCambios extends javax.swing.JFrame {
         jLabel27.setFont(new java.awt.Font("Arial Narrow", 0, 16)); // NOI18N
         jLabel27.setText("Responsable:");
 
+        jTextField1.setName("txtVisualizaCambioNombre"); // NOI18N
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -68,11 +70,13 @@ public class FrmVisualizarCambios extends javax.swing.JFrame {
 
         jLabel28.setFont(new java.awt.Font("Arial Narrow", 1, 16)); // NOI18N
         jLabel28.setText("Solicitante..");
+        jLabel28.setName("lblVisualizaCambioResponsa"); // NOI18N
 
         jLabel29.setFont(new java.awt.Font("Arial Narrow", 0, 16)); // NOI18N
         jLabel29.setText("Fecha de Inicio:");
 
         jButton4.setText("Enviar");
+        jButton4.setName("btnVisualizaCambioFechIni"); // NOI18N
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -83,6 +87,7 @@ public class FrmVisualizarCambios extends javax.swing.JFrame {
         jLabel30.setText("Fecha límite:");
 
         jButton5.setText("Enviar");
+        jButton5.setName("btnVisualizaCambioFechLimit"); // NOI18N
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);

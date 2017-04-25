@@ -48,9 +48,11 @@ public class FrmVisualizarSolicitudes extends javax.swing.JFrame {
 
         jLabel26.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel26.setText("Cambio 1x_ABC:");
+        jLabel26.setName("lblVisuaizaSolicitudesNomb"); // NOI18N
 
         jButton1.setBackground(new java.awt.Color(153, 153, 153));
         jButton1.setText("Asignar");
+        jButton1.setName("btnVisuaizaSolicitudesAsigna"); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -59,6 +61,7 @@ public class FrmVisualizarSolicitudes extends javax.swing.JFrame {
 
         jButton3.setBackground(new java.awt.Color(153, 153, 153));
         jButton3.setText("Salir");
+        jButton3.setName("btnVisualizaSolicitudesSalir"); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);

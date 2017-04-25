@@ -46,6 +46,7 @@ public class FrmSeleccionarCambioJefe extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(153, 153, 153));
         jButton1.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton1.setText("Hacer Solicitud");
+        jButton1.setName("btnSeleccionarCambioJefeHacerSolici"); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -55,6 +56,7 @@ public class FrmSeleccionarCambioJefe extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(153, 153, 153));
         jButton3.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton3.setText("Evaluar Solicitud");
+        jButton3.setName("btnSeleccionarCambioJefeEvaluSolici"); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -64,17 +66,21 @@ public class FrmSeleccionarCambioJefe extends javax.swing.JFrame {
         jButton5.setBackground(new java.awt.Color(153, 153, 153));
         jButton5.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton5.setText("Estados de los Cambios");
+        jButton5.setName("btnSeleccionarCambioJefeEstadoCambios"); // NOI18N
 
         jButton4.setBackground(new java.awt.Color(153, 153, 153));
         jButton4.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton4.setText("Aprobar/Rechazar Solicitud");
+        jButton4.setName("btnSeleccionarCambioJefeAprobRechaSolici"); // NOI18N
 
         jButton2.setBackground(new java.awt.Color(153, 153, 153));
         jButton2.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton2.setText("Visualizar Solicitudes");
+        jButton2.setName("btnSeleccionarCambioJefeVisualSolicit"); // NOI18N
 
         jButton6.setBackground(new java.awt.Color(153, 153, 153));
         jButton6.setText("Salir");
+        jButton6.setName("btnSeleccionarCambioJefeSalir"); // NOI18N
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);

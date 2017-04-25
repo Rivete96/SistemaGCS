@@ -45,19 +45,25 @@ public class FrmIniciarSesion extends javax.swing.JFrame {
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        jLabel1.setText("User:");
+        jLabel1.setText("Usuario:");
 
         jLabel2.setBackground(new java.awt.Color(0, 0, 0));
         jLabel2.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jLabel2.setText("Password:");
 
+        jTextField1.setName("txtIniciarSesionUsu"); // NOI18N
+
+        jTextField2.setName("txtIniciarSesionPass"); // NOI18N
+
         jButton1.setBackground(new java.awt.Color(153, 153, 153));
         jButton1.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton1.setText("Login");
+        jButton1.setName("btnniciarSesionLogin"); // NOI18N
 
         jButton2.setBackground(new java.awt.Color(153, 153, 153));
         jButton2.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton2.setText("Salir");
+        jButton2.setName("btnniciarSesionSalir"); // NOI18N
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

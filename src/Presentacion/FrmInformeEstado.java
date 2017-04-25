@@ -165,7 +165,7 @@ public class FrmInformeEstado extends javax.swing.JFrame {
         jLabel4.setText("dd/mm/aaaa");
 
         jLabel7.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
-        jLabel7.setText("Aprobado");
+        jLabel7.setText("Aprobado:");
 
         jLabel5.setFont(new java.awt.Font("Arial Narrow", 2, 14)); // NOI18N
         jLabel5.setText("* Jefe del Proyecto");
@@ -322,11 +322,12 @@ public class FrmInformeEstado extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jLabel9.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Arial Narrow", 1, 16)); // NOI18N
         jLabel9.setText("Entregables");
 
         jButton2.setBackground(new java.awt.Color(153, 153, 153));
         jButton2.setText("Salir");
+        jButton2.setName("btnInformeEstadoSalir"); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);

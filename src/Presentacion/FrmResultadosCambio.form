@@ -184,6 +184,7 @@
               <Font name="Arial Narrow" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Descargar"/>
+            <Property name="name" type="java.lang.String" value="btnResultCambioDescar" noResource="true"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
@@ -198,6 +199,7 @@
               <Font name="Arial Narrow" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Rechazar"/>
+            <Property name="name" type="java.lang.String" value="btnResultCambioRechaz" noResource="true"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
@@ -214,6 +216,7 @@
               <Properties>
                 <Property name="columns" type="int" value="20"/>
                 <Property name="rows" type="int" value="5"/>
+                <Property name="name" type="java.lang.String" value="txtResultCambioComenta" noResource="true"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -235,6 +238,7 @@
               <Font name="Arial Narrow" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Aprobar"/>
+            <Property name="name" type="java.lang.String" value="btnResultCambioAproba" noResource="true"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
@@ -276,6 +280,7 @@
                 <Property name="columns" type="int" value="20"/>
                 <Property name="rows" type="int" value="5"/>
                 <Property name="text" type="java.lang.String" value="Miembro 1&#xa;Miembro 2&#xa;Miembro 3&#xa;Miembro 4"/>
+                <Property name="name" type="java.lang.String" value="txtResultCambioMiembr" noResource="true"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -292,6 +297,7 @@
                 <Property name="columns" type="int" value="20"/>
                 <Property name="rows" type="int" value="5"/>
                 <Property name="text" type="java.lang.String" value="Aceptado&#xa;Rechazado&#xa;Aceptado&#xa;Aceptado"/>
+                <Property name="name" type="java.lang.String" value="txtResultCambioOpinion" noResource="true"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -312,6 +318,7 @@
                 <StringItem index="1" value=" "/>
               </StringArray>
             </Property>
+            <Property name="name" type="java.lang.String" value="cmbResultCambioMiemb" noResource="true"/>
           </Properties>
         </Component>
       </SubComponents>

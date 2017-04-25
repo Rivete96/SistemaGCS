@@ -52,6 +52,7 @@ public class FrmProgramarSolicitud extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(153, 153, 153));
         jButton3.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton3.setText("Aceptar");
+        jButton3.setName("btnProgramacSolicitudAcept"); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -61,6 +62,7 @@ public class FrmProgramarSolicitud extends javax.swing.JFrame {
         jLabel27.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel27.setText("Responsable:");
 
+        jTextField1.setName("txtProgramacSolicitudNombre"); // NOI18N
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -69,11 +71,13 @@ public class FrmProgramarSolicitud extends javax.swing.JFrame {
 
         jLabel28.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jLabel28.setText("Solicitante..");
+        jLabel28.setName("lblProgramacSolicitudResponsa"); // NOI18N
 
         jLabel29.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel29.setText("Fecha de Inicio:");
 
         jButton4.setText("Enviar");
+        jButton4.setName("btnProgramacSolicitudFechIni"); // NOI18N
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -84,6 +88,7 @@ public class FrmProgramarSolicitud extends javax.swing.JFrame {
         jLabel30.setText("Fecha límite:");
 
         jButton5.setText("Enviar");
+        jButton5.setName("btnProgramacSolicitudFechLimit"); // NOI18N
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);

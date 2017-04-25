@@ -72,6 +72,7 @@ public class FrmProyectoEquipo extends javax.swing.JPanel implements java.beans.
         jLabel7.setText("Persona 1");
 
         jButton4.setBackground(new java.awt.Color(153, 153, 153));
+        jButton4.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton4.setText("Revision y Evaluacion");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,6 +81,7 @@ public class FrmProyectoEquipo extends javax.swing.JPanel implements java.beans.
         });
 
         jButton5.setBackground(new java.awt.Color(153, 153, 153));
+        jButton5.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton5.setText("Estado de Proyecto");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -88,6 +90,7 @@ public class FrmProyectoEquipo extends javax.swing.JPanel implements java.beans.
         });
 
         jButton6.setBackground(new java.awt.Color(153, 153, 153));
+        jButton6.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton6.setText("Cambios");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,6 +157,7 @@ public class FrmProyectoEquipo extends javax.swing.JPanel implements java.beans.
         jLabel9.setText("Persona 2");
 
         jButton8.setBackground(new java.awt.Color(153, 153, 153));
+        jButton8.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton8.setText("Estado de Proyecto");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -203,6 +207,7 @@ public class FrmProyectoEquipo extends javax.swing.JPanel implements java.beans.
         jLabel10.setText("Responsable:");
 
         jButton12.setBackground(new java.awt.Color(153, 153, 153));
+        jButton12.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton12.setText("Estado de Proyecto");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -243,10 +248,14 @@ public class FrmProyectoEquipo extends javax.swing.JPanel implements java.beans.
         );
 
         jButton2.setBackground(new java.awt.Color(153, 153, 153));
+        jButton2.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton2.setText("Salir");
+        jButton2.setName("btnProyectoEquipoSalir"); // NOI18N
 
         jButton1.setBackground(new java.awt.Color(153, 153, 153));
+        jButton1.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jButton1.setText("Nuevo");
+        jButton1.setName("btnProyectoEquipoNuevo"); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);

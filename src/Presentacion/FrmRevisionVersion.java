@@ -81,18 +81,21 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
 
         jComboBox1.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Entregable 1", " " }));
+        jComboBox1.setName("cmbRevisionVersionEntregable"); // NOI18N
 
         jLabel3.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel3.setText("Estado:");
 
         jLabel4.setFont(new java.awt.Font("Arial Narrow", 1, 11)); // NOI18N
         jLabel4.setText("..");
+        jLabel4.setName("lblRevisionVersionEstado"); // NOI18N
 
         jLabel5.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel5.setText("Fecha Límite:");
 
         jLabel6.setFont(new java.awt.Font("Arial Narrow", 1, 11)); // NOI18N
         jLabel6.setText("..");
+        jLabel6.setName("lblRevisionVersionFechLimit"); // NOI18N
 
         jPanel3.setBackground(new java.awt.Color(204, 204, 204));
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
@@ -103,6 +106,7 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(153, 153, 153));
         jButton1.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jButton1.setText("Subir");
+        jButton1.setName("btnRevisionVersionSubir"); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -112,6 +116,7 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
         jLabel12.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel12.setText("Comentario:");
 
+        jTextField1.setName("txtRevisionVersionComenta"); // NOI18N
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -120,6 +125,7 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
 
         jButton2.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jButton2.setText("Guardar");
+        jButton2.setName("btnRevisionVersionGuardar"); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -132,6 +138,7 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
         jButton5.setBackground(new java.awt.Color(153, 153, 153));
         jButton5.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jButton5.setText("Descargar");
+        jButton5.setName("btnRevisionVersionDescarg"); // NOI18N
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -186,12 +193,14 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
 
         jLabel8.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jLabel8.setText("0,1,2,etc.");
+        jLabel8.setName("lblRevisionVersionNum"); // NOI18N
 
         jLabel10.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel10.setText("Última Revisión:");
 
         jLabel11.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jLabel11.setText("Nadie, Miembro 1,2,3");
+        jLabel11.setName("lblRevisionVersionUltRevis"); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

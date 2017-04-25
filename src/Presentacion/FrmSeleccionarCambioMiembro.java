@@ -47,6 +47,7 @@ public class FrmSeleccionarCambioMiembro extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(153, 153, 153));
         jButton1.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton1.setText("Hacer Solicitud");
+        jButton1.setName("btnSeleccionarCambioMiembrHacerSolici"); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -56,13 +57,16 @@ public class FrmSeleccionarCambioMiembro extends javax.swing.JFrame {
         jButton3.setBackground(new java.awt.Color(153, 153, 153));
         jButton3.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton3.setText("Evaluar Solicitud");
+        jButton3.setName("btnSeleccionarCambioMiembrEvaluSolici"); // NOI18N
 
         jButton6.setBackground(new java.awt.Color(153, 153, 153));
         jButton6.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jButton6.setText("Estados de los Cambios");
+        jButton6.setName("btnSeleccionarCambioMiembrEstadoCamb"); // NOI18N
 
         jButton7.setBackground(new java.awt.Color(153, 153, 153));
         jButton7.setText("Salir");
+        jButton7.setName("btnSeleccionarCambioMiembrSalir"); // NOI18N
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);

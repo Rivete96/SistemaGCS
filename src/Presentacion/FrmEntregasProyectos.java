@@ -70,6 +70,7 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
 
         jRadioButton1.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jRadioButton1.setText("Miembro 1\n");
+        jRadioButton1.setName("rbEntregaProyMiembro1"); // NOI18N
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jRadioButton1ActionPerformed(evt);
@@ -77,6 +78,7 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
         });
 
         jButton1.setText("jButton1");
+        jButton1.setName("btnEntregaProyFecha"); // NOI18N
 
         jLabel6.setFont(new java.awt.Font("Arial Narrow", 0, 15)); // NOI18N
         jLabel6.setText("Responsable:");
@@ -84,14 +86,18 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
         jLabel7.setFont(new java.awt.Font("Arial Narrow", 0, 15)); // NOI18N
         jLabel7.setText("Participante(s):");
 
+        jComboBox1.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Miembro 1", " ", " " }));
+        jComboBox1.setName("cmbEntregaProyResponsa"); // NOI18N
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox1ActionPerformed(evt);
             }
         });
 
+        jComboBox2.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Documento 1", " ", " " }));
+        jComboBox2.setName("cmbEntregaProyDocu"); // NOI18N
         jComboBox2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox2ActionPerformed(evt);
@@ -100,6 +106,7 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
 
         jRadioButton2.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jRadioButton2.setText("Miembro 2\n\n");
+        jRadioButton2.setName("rbEntregaProyMiembro2"); // NOI18N
         jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jRadioButton2ActionPerformed(evt);
@@ -108,17 +115,19 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
 
         jRadioButton3.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jRadioButton3.setText("Miembro 3");
+        jRadioButton3.setName("rbEntregaProyMiembro3"); // NOI18N
         jRadioButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jRadioButton3ActionPerformed(evt);
             }
         });
 
-        jLabel8.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel8.setText("Fecha Límite:");
 
         jButton2.setBackground(new java.awt.Color(153, 153, 153));
         jButton2.setText("Guardar");
+        jButton2.setName("btnEntregaProyGuardar"); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -144,7 +153,7 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
                     .addComponent(jLabel6)
                     .addComponent(jLabel7)
                     .addComponent(jRadioButton1))
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton2)
@@ -174,8 +183,8 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
                 .addComponent(jButton2))
         );
 
-        jLabel2.setFont(new java.awt.Font("Arial Narrow", 1, 24)); // NOI18N
-        jLabel2.setText("Entregables del Proyecto");
+        jLabel2.setFont(new java.awt.Font("Arial Narrow", 1, 22)); // NOI18N
+        jLabel2.setText("ENTREGABLES DEL PROYECTO");
 
         jPanel3.setBackground(new java.awt.Color(204, 204, 204));
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Fase 2", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial Narrow", 1, 12))); // NOI18N
@@ -185,6 +194,7 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
 
         jRadioButton4.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
         jRadioButton4.setText("Miembro 1\n");
+        jRadioButton4.setName(""); // NOI18N
         jRadioButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jRadioButton4ActionPerformed(evt);
@@ -192,6 +202,7 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
         });
 
         jButton3.setText("jButton1");
+        jButton3.setName("btnEntregaProyFecha2"); // NOI18N
 
         jLabel9.setFont(new java.awt.Font("Arial Narrow", 0, 15)); // NOI18N
         jLabel9.setText("Responsable:");
@@ -199,14 +210,18 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
         jLabel10.setFont(new java.awt.Font("Arial Narrow", 0, 15)); // NOI18N
         jLabel10.setText("Participante(s):");
 
+        jComboBox3.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Miembro 1", " ", " " }));
+        jComboBox3.setName("cmbEntregaProyResponsa2"); // NOI18N
         jComboBox3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox3ActionPerformed(evt);
             }
         });
 
+        jComboBox4.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Documento 1", " ", " " }));
+        jComboBox4.setName("cmbEntregaProyDocu2"); // NOI18N
         jComboBox4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox4ActionPerformed(evt);
@@ -229,7 +244,7 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
             }
         });
 
-        jLabel11.setFont(new java.awt.Font("Arial Narrow", 0, 11)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel11.setText("Fecha Límite:");
 
         jButton4.setBackground(new java.awt.Color(153, 153, 153));
@@ -259,7 +274,7 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
                     .addComponent(jLabel9)
                     .addComponent(jLabel10)
                     .addComponent(jRadioButton4))
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton4)
@@ -291,6 +306,7 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
 
         jButton5.setBackground(new java.awt.Color(153, 153, 153));
         jButton5.setText("Salir");
+        jButton5.setName("btnEntregaProySalir"); // NOI18N
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -314,7 +330,7 @@ public class FrmEntregasProyectos extends javax.swing.JPanel implements java.bea
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(112, 112, 112)
                         .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

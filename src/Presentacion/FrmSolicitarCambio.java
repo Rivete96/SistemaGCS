@@ -53,6 +53,7 @@ public class FrmSolicitarCambio extends javax.swing.JFrame {
 
         jLabel22.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel22.setText("USUARIO ACTUAL");
+        jLabel22.setName("lblSolicitarCambioSolicitante"); // NOI18N
 
         jLabel25.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel25.setText("Solicitud:");
@@ -60,23 +61,30 @@ public class FrmSolicitarCambio extends javax.swing.JFrame {
         jLabel26.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel26.setText("Documento:");
 
+        jTextField1.setName("txtSolicitarCambioSolicitud"); // NOI18N
+
         jLabel17.setFont(new java.awt.Font("Arial Narrow", 1, 24)); // NOI18N
         jLabel17.setText("Proyecto XX");
+        jLabel17.setName("lblSolicitarCambioNombProy"); // NOI18N
 
         jButton1.setBackground(new java.awt.Color(153, 153, 153));
         jButton1.setText("Subir");
+        jButton1.setName("btnSolicitarCambioSubir"); // NOI18N
 
         jButton2.setBackground(new java.awt.Color(153, 153, 153));
         jButton2.setText("Enviar");
+        jButton2.setName("btnSolicitarCambioEnviar"); // NOI18N
 
         jLabel27.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel27.setText("Fecha:");
 
         jLabel28.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel28.setText("dd/mm/aaaa");
+        jLabel28.setName("lblSolicitarCambioFecha"); // NOI18N
 
         jButton3.setBackground(new java.awt.Color(153, 153, 153));
         jButton3.setText("Salir");
+        jButton3.setName("btnSolicitarCambioSalir"); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
