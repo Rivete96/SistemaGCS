@@ -42,6 +42,7 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel71 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        jButton19 = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
@@ -88,7 +89,7 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(204, 153, 0));
 
         jLabel1.setFont(new java.awt.Font("Arial Narrow", 1, 22)); // NOI18N
-        jLabel1.setText("ENTREGABLES DEL PROYECTO");
+        jLabel1.setText("ENTREGABLES PARA REVISIÓN");
 
         jLabel2.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel2.setText("Entregable(s):");
@@ -148,7 +149,7 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel12)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 197, Short.MAX_VALUE)
+                .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 189, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton2)
                 .addContainerGap())
@@ -167,6 +168,16 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
 
         jLabel9.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
         jLabel9.setText("Responsable:");
+
+        jButton19.setBackground(new java.awt.Color(153, 153, 153));
+        jButton19.setFont(new java.awt.Font("Arial Narrow", 0, 14)); // NOI18N
+        jButton19.setText("Subir");
+        jButton19.setName("btnRevisionVersionSubir"); // NOI18N
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -188,13 +199,17 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel6)
-                                    .addComponent(jLabel8)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(29, 29, 29)
-                                        .addComponent(jLabel9)
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGap(29, 29, 29)
+                                                .addComponent(jLabel9))
+                                            .addComponent(jLabel8))
                                         .addGap(18, 18, 18)
-                                        .addComponent(jLabel71)))))
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel71)
+                                            .addComponent(jButton19))))))
                         .addGap(0, 34, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addContainerGap()
@@ -219,10 +234,11 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7)
-                    .addComponent(jLabel8))
+                    .addComponent(jLabel8)
+                    .addComponent(jButton19))
                 .addGap(18, 18, 18)
                 .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGap(18, 18, 18))
         );
 
         jTabbedPane1.addTab("Entregables", jPanel1);
@@ -664,6 +680,10 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton18ActionPerformed
 
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton19ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -706,16 +726,13 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
     private javax.swing.JComboBox jComboBox1;
     private javax.swing.JComboBox jComboBox4;
-    private javax.swing.JComboBox jComboBox5;
     private javax.swing.JComboBox jComboBox6;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel12;
@@ -734,15 +751,6 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel50;
-    private javax.swing.JLabel jLabel51;
-    private javax.swing.JLabel jLabel52;
-    private javax.swing.JLabel jLabel53;
-    private javax.swing.JLabel jLabel54;
-    private javax.swing.JLabel jLabel55;
-    private javax.swing.JLabel jLabel56;
-    private javax.swing.JLabel jLabel57;
-    private javax.swing.JLabel jLabel58;
-    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
@@ -760,18 +768,14 @@ public class FrmRevisionVersion extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField4;
-    private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
     // End of variables declaration//GEN-END:variables
 }
